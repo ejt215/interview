@@ -26,6 +26,7 @@ public class ProcessorTest {
     public void setup() throws URISyntaxException {
         p = Paths.get(ClassLoader.getSystemResource("example-filtered.csv").toURI());
     }
+
     @Test
     public void isParseable(){
         try {
@@ -34,8 +35,9 @@ public class ProcessorTest {
             fail("couldn't parse file");
         }
     }
-
-    @Test void hasOnlyRecordsLessthanFiveDollars(){
+    
+    @Test
+    public void hasOnlyRecordsLessthanFiveDollars(){
         try {
             CSVParser parser = CSVUtils.CSV_FORMAT.parse(Files.newBufferedReader(p));
             for(CSVRecord record : parser.getRecords()){
