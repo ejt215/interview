@@ -35,7 +35,7 @@ public class ProcessorTest {
             fail("couldn't parse file");
         }
     }
-    
+
     @Test
     public void hasOnlyRecordsLessthanFiveDollars(){
         try {

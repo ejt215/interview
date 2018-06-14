@@ -5,7 +5,7 @@ In this excercise, we would like you to fill in the implementation of a program 
 ## Steps
 1. Read example.csv from the resources directory
 2. Filter out (exclude) the lines where the list price (second column) is greater than $5.00
-3. Write the filtered content as a new CSV file called example-filtered.csv
+3. Write the filtered content to a new CSV file called example-filtered.csv
 
 > *Bonus- Filter out duplicate row ids (first column).  Keep only the first instance of a row id that was encountered
 
@@ -21,7 +21,7 @@ Additionally, there is a utility to parse a CSV line which you are free to use o
 
 ## Expected output
 
-        
+example-filtered.csv        
 ````text
 "86689","3.99","2.79","2018-11-08 07:59:59","$2.79 for 1 item","Simple Sale","2018-02-25 11:52:03.098267","user","452889","044000032258","UPC-A","Nabisco (Food)","Chips Ahoy!","Candy Blasts Chocolate Chip Cookies","12.4 Oz","1","Package","null","Chocolate Chip Cookies","Cookies","Snacks","t","2013-12-26 00:00:00"
 "86707","3.99","2.79","2018-11-08 07:59:59","$2.79 for 1 item","Simple Sale","2018-02-25 11:52:03.098267","user","60903","044000032258","UPC-A","Nabisco (Food)","Chips Ahoy!","Candy Blasts Chocolate Chip Cookies","12.4 Oz","1","Package","null","Chocolate Chip Cookies","Cookies","Snacks","t","2013-12-26 00:00:00"
