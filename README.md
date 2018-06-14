@@ -3,6 +3,7 @@
 In this excercise, we would like you to fill in the implementation of a program that will read a CSV file from the filesystem, apply some rules to the file and write a new file back to the filesystem.
 
 ## Steps
+Make the changes needed to:
 1. Read example.csv from the resources directory
 2. Filter out (exclude) the lines where the list price (second column) is greater than $5.00
 3. Write the filtered content to a new CSV file called example-filtered.csv
