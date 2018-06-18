@@ -22,7 +22,7 @@ Additionally, there is a utility to parse a CSV line which you are free to use o
 > Helpful resouces:
 > 1. Apache Commons CSV api docs: https://commons.apache.org/proper/commons-csv/archives/1.5/apidocs/index.html
 
-Also, there is a test in the test directory (ProcessorTest) to check your progress.  
+Also, there is a test in the test directory (TestCSV) to check your progress.  
 
 
 ## Expected output
