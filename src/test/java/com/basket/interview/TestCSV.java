@@ -1,4 +1,4 @@
-package com.basket.interview.processor;
+package com.basket.interview;
 
 import com.basket.interview.utils.CSVUtils;
 import org.apache.commons.csv.CSVParser;
@@ -17,14 +17,14 @@ import java.nio.file.Paths;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import static org.junit.jupiter.api.Assertions.fail;
 
-class ProcessorTest {
-
+class TestCSV {
+    private String FILE_NAME = "example-filtered.csv";
     private Path p;
 
     @BeforeEach
     void setup() {
         try {
-            URI uri = ClassLoader.getSystemResource("example-filtered.csv").toURI();
+            URI uri = ClassLoader.getSystemResource(FILE_NAME).toURI();
             p = Paths.get(uri);
         } catch (NullPointerException | URISyntaxException e) {
             fail("couldn't find file",e);

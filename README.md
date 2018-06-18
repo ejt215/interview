@@ -12,13 +12,18 @@ Make the changes needed to:
 
 
 ## Provided
-There are three interfaces provided.  Please use them to construct your program
+There are three interfaces provided.  Please use them to construct your program.  You are free to make modifications to the interfaces if you feel it yields a better design.
 
 1. Reader
 2. Writer
 3. Processor
 
 Additionally, there is a utility to parse a CSV line which you are free to use or not use
+> Helpful resouces:
+> 1. Apache Commons CSV api docs: https://commons.apache.org/proper/commons-csv/archives/1.5/apidocs/index.html
+
+Also, there is a test in the test directory (ProcessorTest) to check your progress.  
+
 
 ## Expected output
 
