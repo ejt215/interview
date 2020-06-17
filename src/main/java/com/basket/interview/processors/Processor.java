@@ -1,7 +1,11 @@
 package com.basket.interview.processors;
 
-import java.util.List;
+import org.apache.commons.csv.CSVRecord;
 
-public interface Processor<T> {
-    List<T> process(String path);
+import java.math.BigDecimal;
+import java.util.Collection;
+
+
+public interface Processor {
+    Collection<CSVRecord> process(Iterable<CSVRecord> records, BigDecimal priceLimit);
 }

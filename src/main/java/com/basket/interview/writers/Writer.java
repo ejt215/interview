@@ -1,7 +1,9 @@
 package com.basket.interview.writers;
 
-import java.util.List;
+import org.apache.commons.csv.CSVRecord;
 
-public interface Writer<T> {
-    void write(List<T> items);
+import java.util.Collection;
+
+public interface Writer {
+    void write(Collection<CSVRecord> items, String fileName);
 }
